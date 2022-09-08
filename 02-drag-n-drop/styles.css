@@ -7,18 +7,17 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e5e5e5;
-  display: flex;
   padding-top: 5rem;
   justify-content: center;
-  overflow: hidden;
   margin: 0;
 }
 
 .row {
   display: flex;
-  width: 600px;
+  max-width: 600px;
+  min-width: 450px;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
 }
 
 .col-header {
