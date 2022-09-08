@@ -27,13 +27,14 @@ body {
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
+  text-align: center;
 }
 
 .item {
   width: 150px;
   height: 66px;
   border: 1px solid #eee;
-  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 1);
   border-radius: 20px;
   background: #f7f6f7;
   padding: 0.8rem 1rem;
@@ -64,11 +65,13 @@ body {
 }
 
 .hold {
-  border: 5px solid #eee;
+  border: 2px solid rgba(130, 130, 130, 0.3);
+  color: rgba(130, 130, 130, 0.5);
 }
 
 .hide {
   display: none;
+  opacity: 0.1;
 }
 
 .hovered {

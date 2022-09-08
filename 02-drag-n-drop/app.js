@@ -34,6 +34,8 @@ function dragleave( event ) {
     event.target.classList.remove( 'hovered' )
 }
 function dragdrop( event ) {
+    // prevent default action (open as link for some elements)
+    event.preventDefault()
     event.target.append( item )
     event.target.classList.remove( 'hovered' )
 }
